@@ -1,0 +1,5 @@
+---
+- name: xdebug
+  yum:
+    name: php-pecl-xdebug
+    state: present

@@ -1,0 +1,9 @@
+---
+- name: Provision
+  hosts: all
+  connection: local
+  become: yes
+  user: vagrant
+  roles:
+    - common
+    - php

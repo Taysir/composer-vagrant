@@ -1,0 +1,16 @@
+{
+  "name": "taysir/composer-vcs",
+  "require": {
+    "taysir/test": "dev-master"
+  },
+  "repositories": {
+    "test": {
+      "type": "vcs",
+      "url": "git://localhost/test.git",
+      "secure-http": false
+    }
+  },
+  "config": {
+    "secure-http": true
+  }
+}

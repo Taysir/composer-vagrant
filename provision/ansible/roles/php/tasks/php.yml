@@ -1,0 +1,16 @@
+---
+- name: php
+  yum:
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - php
+    - php-xml
+
+- name: timezone
+  ini_file:
+    path: /etc/php.ini
+    section: Date
+    option: date.timezone
+    value: UTC
+    backup: yes

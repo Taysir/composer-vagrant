@@ -1,0 +1,31 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "918935d52ea49349cce60428fefbc4ba",
+    "packages": [
+        {
+            "name": "taysir/test",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://localhost/test.git",
+                "reference": "fe21d8b3c92b1b98f5a0731e5a1b4cd398b03250"
+            },
+            "type": "library",
+            "time": "2018-09-24T06:02:08+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "taysir/test": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
